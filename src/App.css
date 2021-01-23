@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1547531455-c20b677ded4b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fa-plus-circle{
+  font-size: 35px;
+  background-color: lightblue;
+  color: blue;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.boton {
+  outline: none;
+  border:  none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li{
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: 10px;
+  
+  border-top: 1px solid
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  font-family: 'Shadows Into Light', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-trash {
+  float: right;
+  
+}
+
+input {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+button {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.fondo{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(30, 139, 195, 1));
+  
 }
